@@ -52,3 +52,44 @@ The dataset is generated using:
 3. Handle collisions using Linear Probing.
 4. Compare manual calculations with actual program output.
 5. Understand incremental project development.
+## Algorithm
+
+1. Initialize all hash table buckets as empty.
+2. Read the 20 personalized cold-drink flavour values.
+3. Calculate the square of each key.
+4. Extract the middle digits from the squared value according to the selected Mid-Square convention.
+5. Calculate the hash index using the extracted digits modulo the table size.
+6. Check whether the calculated bucket is empty.
+7. If the bucket is occupied, use Separate Chaining to insert the new value into the existing linked list.
+8. Repeat until all 20 values are inserted.
+9. Display the final hash table with all buckets and their linked values.
+
+## Compilation and Execution
+
+Compile the program using:
+
+```bash
+g++ hash_table.cpp -o hash_table
+```
+
+Execute the program:
+
+```bash
+./hash_table
+```
+
+For Windows:
+
+```bash
+hash_table.exe
+```
+
+## Time Complexity
+
+- Average insertion: O(1), assuming a reasonable distribution of keys.
+- Worst-case insertion: O(n) if all keys are mapped to the same bucket.
+- Display operation: O(m + n), where m is the table size and n is the number of stored values.
+
+## Final Result
+
+The project demonstrates the implementation of a personalized hash table using the Mid-Square hashing technique and Separate Chaining for collision handling. It stores 20 personalized cold-drink flavour values generated using PRN 202602100017.
