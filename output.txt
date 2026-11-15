@@ -1,0 +1,55 @@
+DATA STRUCTURES INTERNAL ACTIVITY 3
+PRN: 202602100017
+Hashing: Division Method
+Collision Handling: Linear Probing
+Table Size: 23
+
+Insertion Process
+-------------------------
+Inserted 17 at index 17
+Inserted 30 at index 7
+Inserted 43 at index 20
+Inserted 56 at index 10
+Inserted 69 at index 0
+Inserted 82 at index 13
+Inserted 95 at index 3
+Inserted 8 at index 8
+Inserted 21 at index 21
+Inserted 34 at index 11
+Inserted 47 at index 1
+Inserted 60 at index 14
+Inserted 73 at index 4
+Inserted 86 at index 18
+Inserted 99 at index 9
+Inserted 12 at index 12
+Inserted 25 at index 2
+Inserted 38 at index 15
+Inserted 51 at index 5
+Inserted 64 at index 19
+
+Final Hash Table
+-------------------------
+Index	Value
+0	69
+1	47
+2	25
+3	95
+4	73
+5	51
+6	EMPTY
+7	30
+8	8
+9	99
+10	56
+11	34
+12	12
+13	82
+14	60
+15	38
+16	EMPTY
+17	17
+18	86
+19	64
+20	43
+21	21
+22	EMPTY
